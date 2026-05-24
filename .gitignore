@@ -1,52 +1,43 @@
-# Prerequisites
-*.d
+```
+# Dependencies
+node_modules/
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# Compiled and build artifacts
+dist/
+build/
+*.js
+*.js.map
+*.d.ts
 
-# Linker output
-*.ilk
-*.map
-*.exp
+# Logs and temp files
+*.log
+*.tmp
 
-# Precompiled Headers
-*.gch
-*.pch
+# Environment
+.env
+.env.local
+.env.*
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
+# Editors
+.vscode/
+.idea/
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
+# Python cache (if any Python files exist)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
 
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
+# Coverage reports
+coverage/
+htmlcov/
+.coverage
 
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
+# Testing
+.nyc_output/
+coverage-final.json
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# OS generated files
+.DS_Store
+Thumbs.db
+```
